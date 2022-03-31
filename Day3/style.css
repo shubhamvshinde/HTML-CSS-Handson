@@ -1,0 +1,12 @@
+.external{
+    color: aqua;
+}
+.external2{
+    width: fit-content;
+    color: green;
+    font-size: 50px;
+    border: 5px solid red;
+    margin-left:50px ;
+    border-radius: 10px;
+    padding: 5px;
+}
