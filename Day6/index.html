@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Questions</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .internal{
+            color: orange;
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Q 1 : Create unordered list and ordered list</h2>
+    <h2>Unordered list</h2>
+    By default type of unordered list is bullets.
+    <ul>
+        <li>Shubham</li>
+        <li>Shivam</li>
+        <li>Om</li>
+        <li>Shlok</li>
+    </ul>
+    type of unorderedlist is square.
+    <ul type="square">
+        <li>Shubham</li>
+        <li>Shivam</li>
+        <li>Om</li>
+        <li>Shlok</li>
+    </ul>
+    type of unordered list is circle.
+    <ul type="circle">
+        <li>Shubham</li>
+        <li>Shivam</li>
+        <li>Om</li>
+        <li>Shlok</li>
+    </ul>
+
+    <h2>Ordered list</h2>
+    by default ordered list type is number.
+    <ol>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>DSA</li>
+    </ol>
+    the type of ordered list is capital alphabets
+    <ol type="A">
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>DSA</li>
+    </ol>
+    the type of ordered list is romen numbers.
+    <ol type="I">
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>DSA</li>
+    </ol>
+
+    <h2>Q 2 : Create user form accepting name age contact address</h2>
+    <form action="">
+        <label for="username">User Name</label>
+        <input type="text" name="username" value="" id="username" placeholder="Enter User Name"><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" value="" id="age" placeholder="Enter age"><br>
+        <label for="contact">Contact</label>
+        <input type="number" name="contact" value="" id="contact" placeholder="Contact No."><br>
+        <label for="address">Address</label>
+        <input type="text" name="address" value="" id="address" placeholder="Enter Address"><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <h2>Q 3 : Create radio button in selecting Male, Female and create checkbox for selecting options as React HTML CSS JS Node</h2>
+    <form action="">
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label><br>
+        <input type="checkbox" name="language" value="react" id="react">
+        <label for="react">React</label><br>
+        <input type="checkbox" name="language1" value="html" id="html">
+        <label for="female">HTML</label><br>
+        <input type="checkbox" name="language2" value="css" id="css">
+        <label for="css">CSS</label><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Q 4 : Explain different types of CSS</h2>
+    <p>In the css there are three types of css
+        <ol>
+            <li>Inline - In the inline css we use style attribute inside the tag and use the inline styling to that element.</li>
+            <li>Internal - we use style attribute in the our head tag and give the Internal css to the page.</li>
+            <li>External - we use External file for the External css and connect to the html page using link tag.</li>
+        </ol>
+    </p>
+    <p style="color: red; font-size: 30px;">This line is made using inline CSS.</p>
+    <p class="internal">This line is made using Internal CSS.</p>
+    <p class="external">This line is made using External CSS.</p>
+
+    <h2>Q 5 : Create an example to explain the difference between margin and padding</h2>
+    margin - margin is work on the space around the elements border.<br>
+    padding - padding is work on the border and the elements content.<br>
+    <div class="main">
+        <div class="margin box1">margin-30 px to the box</div>
+        <div class="padding box1">padding-15 px to the  box</div>
+    </div>
+
+    <h2>Q 6 : By using flex , arranges 10 boxes. three boxes should be in a row and page should be scrollable</h2>
+    flex:-<br>
+    <div class="flex">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div>
+        <div class="box">box6</div>
+        <div class="box">box7</div>
+        <div class="box">box8</div>
+        <div class="box">box9</div>
+        <div class="box">box10</div>
+    </div>
+    <h2>Q 7 : Create the image or structure given in the image using grid.</h2>
+    <div class="grid">
+        <div class="boxes1">box1</div>
+        <div class="boxes2">Lorem ipsum dolor sit amet.</div>
+        <div class="boxes3">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
+        <div class="boxes4">Lorem, ipsum.</div>
+        <div class="boxes5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, sunt?</div>
+        <div class="boxes6">Lorem, sit amet consectetur adipisicing elit. Vero, sunt?</div>
+    </div>
+
+</body>
+</html>
