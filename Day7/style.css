@@ -1,0 +1,57 @@
+/* position realtive */
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position: relative;
+    top: 20px;
+}
+.container2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: sticky;
+    left: 250px;
+    top: 50px;
+}
+
+/* position absolute */
+.container3{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+/* position : relative 
+    position relative is always related to its next element 
+    or the browser */
+
+.container5{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: relative;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    position: absolute;
+}
+.container6{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position: relative;
+    top: 10px;
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    position: absolute;
+    left: 40px;
+}
