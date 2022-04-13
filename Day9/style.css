@@ -1,0 +1,91 @@
+.box{
+    height: 200px;
+    width: 350px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 3px red;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 10px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+    margin: auto ;
+    position: relative;
+    bottom: 20px;
+}
+.box:hover{
+    width: 700px;
+}
+.box1{
+    height: 200px;
+    width: 350px;
+    border: 1px solid green;
+    box-shadow: 5px 5px 3px gray;
+    text-align: center;
+    font-size: 30px;
+    transition-property: transform;
+    transition-duration: 2s;
+    margin: auto;
+}
+.box1:hover{
+    /* transform: rotate(60deg); */
+    transform: rotate(360deg);
+}
+
+.box2{
+    height: 200px;
+    width: 350px;
+    border: 1px solid red;
+    box-shadow: 10px 5px 5px orangered;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 10px;
+}
+
+.box3{
+    height: 200px;
+    width: 350px;
+    border: 1px solid green;
+    box-shadow: 5px 5px 3px gray;
+    text-align: center;
+    font-size: 30px;
+    background-color: aquamarine;
+    transition-property: transform;
+    transition-duration: 2s;
+    margin: auto;
+}
+.box3:hover{
+    transform: rotate(360deg);
+}
+
+.box4{
+    height: 200px;
+    width: 350px;
+    border: 1px solid aqua;
+    background-color: blueviolet;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    text-align: center;
+    font-size: 30px;
+}
+.box4:hover{
+    transform: translate(500px);
+}
+.box5{
+    height: 200px;
+    width: 350px;
+    border: 1px solid blue;
+    background-color: orange;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    text-align: center;
+    font-size: 30px;
+}
+.box5:hover{
+    width : 700px;
+}
